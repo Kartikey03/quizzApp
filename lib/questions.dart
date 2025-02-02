@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quizzapp/answer_button.dart';
 import 'package:quizzapp/data/ques.dart';
-import 'package:quizzapp/models/quiz_question.dart';
 
 class Questions extends StatefulWidget {
   const Questions({super.key});
@@ -10,6 +9,7 @@ class Questions extends StatefulWidget {
     return _QuestionsState();
   }
 }
+
 class _QuestionsState extends State<Questions>{
   @override
   Widget build(context){
